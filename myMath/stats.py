@@ -10,7 +10,7 @@ def median(numbers):
     if len(numbers) % 2 == 0:
        median1 = numbers[len(numbers) // 2]
        median2 = numbers[len(numbers) // 2 - 1]
-       mymedian = (median1 + median2) / 2
+       median = (median1 + median2) / 2
     else:
-       mymedian = numbers[len(numbers) // 2]
-    return mymedian
+       median = numbers[len(numbers) // 2]
+    return median
