@@ -4,7 +4,7 @@ def mean(numbers):
 
 
 def median(numbers):
-    # This function returns median of the given list of numbers
+    #This function returns median of the given list of numbers
     numbers.sort()
 
     if len(numbers) % 2 == 0:
